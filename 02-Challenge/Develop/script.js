@@ -13,15 +13,13 @@ for (let i = 0; i < passwordlength; i++) {
   password += chars.substring(randomNumber,randomNumber + 1);
   console.log(password);
   }
-  document.getElementById('password').value = password;
+  document.getElementById('password').value = password
 }
 
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword("");
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
+  var passwordText = document.querySelector("password");
 
 }
 
