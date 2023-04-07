@@ -25,11 +25,3 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-
-//1. Prompt the user for the password criteria
-//  a. Password Length 8 < 128
-//  b. Lowercase, Uppercase, Numbers, Special Characters
-//2. Validate the input.
-//3. Generate password base on criteria.
-//4. Display password to the page.
